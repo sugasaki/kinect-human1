@@ -1,0 +1,9 @@
+﻿<Window x:Class="KinectApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="521" Width="663">
+    <Grid>
+        <Image Name="ima2" Source="/KinectApp1;component/arnold_schwarzenegger_fat.png"  Canvas.Top="66" Margin="209,27,170,25" />
+        <Image Name="imageDepthCamera" Stretch="Uniform" />
+    </Grid>
+</Window>
